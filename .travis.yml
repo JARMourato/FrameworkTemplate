@@ -6,7 +6,6 @@ branches:
   - develop
   - "/^X\\d+(.\\d+)?\\/S\\d+(.\\d+)?$/"
 before_install:
-- gem install xcpretty
 - brew update
 - brew install cookiecutter
 - cookiecutter -c develop --no-input https://github.com/JetpackSwift/FrameworkTemplate
